@@ -1,0 +1,65 @@
+.ann_main_container{
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  width: 1912px;
+  height: 49.19px;
+  left: 4px;
+  top: 4px;
+  background: #C2FF66;
+  border-radius: 8px;
+
+}
+
+.logo_container{
+  size: 20%;
+  margin-left: 30px;
+  margin-top: 8px;
+}
+
+.logo_container2{
+  size: 20%;
+  margin-left: 30px;
+  margin-top: 8px;
+}
+
+.dotty_dot{
+  size: 10%;
+  display: inline-block;
+  height: 100px;
+  width: 200px;
+  padding-left: 10%;
+  padding-top: 8px;
+}
+
+.dotty_dot :not(:first-child){
+  margin-right:10px;
+  margin-left: 10px;
+}
+
+.dotty_dot:nth-child(1){
+  margin-right:10px;
+}
+
+.textty_text{
+
+position: absolute;
+width: 600px;
+height: 17px;
+left: 728.89px;
+top: 16px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 21px;
+line-height: 25px;
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.084px;
+
+color: #18181B;
+
+}

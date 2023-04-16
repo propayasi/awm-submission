@@ -1,0 +1,157 @@
+.navbar_main_container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 50px;
+  padding-left: 7%;
+  size: 300px;
+  position: relative;
+  border-bottom: solid;
+}
+
+.hamburger {
+  display: none;
+}
+
+.list_container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  font-family: "Inter", sans-serif;
+  margin-left: 20px;
+}
+
+.list_container > p {
+  margin-right: 25px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  color: #6b7280;
+}
+
+.logo_container {
+  display: flex;
+  flex-direction: row;
+  width: 20%;
+  margin-left: 30px;
+}
+
+.list_signup {
+  width: 80%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-left: 30px;
+}
+
+.signup_post {
+  width: 1000%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 20px;
+  margin-left: 3px;
+}
+
+.pagesdrop {
+  width: 80%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  font-family: "Inter", sans-serif;
+}
+
+.pages_container {
+  width: 50%;
+  display: flex;
+  width: 80%;
+  display: flex;
+  justify-content: inline-block;
+  align-items: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  color: #6b7280;
+  display: flex;
+}
+
+.signup_container {
+  padding: 1px 3px;
+  font-size: 20px;
+  padding-right: 5px;
+  outline: none;
+  border: none;
+  border-radius: 20px;
+  transition: 0.5s;
+  background: #1e1e1e;
+  color: white;
+  box-shadow: 0 0 10px #363636, inset 0 0 10px #363636;
+  width: 8%;
+  padding-left: 30px;
+  margin-top: 20px;
+  size: 40%;
+  margin-bottom: 20px;
+}
+.signup_container1 {
+  margin-left: 10px;
+  padding: 1px 3px;
+  font-size: 20px;
+  padding-right: 5px;
+  outline: none;
+  border: none;
+  border-radius: 20px;
+  transition: 0.5s;
+  background: #1e1e1e;
+  color: white;
+  box-shadow: 0 0 10px #363636, inset 0 0 10px #363636;
+  width: 8%;
+  padding-left: 30px;
+  margin-top: 20px;
+  size: 40%;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 200px) and (max-width: 1000px) {
+  .phone_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100vw;
+  }
+  .hamburger {
+    display: block;
+    margin-right: 1px;
+    width: 40px;
+    align-content: left;
+  }
+  .navbar_main_container {
+    position: relative;
+    margin-top: 40px;
+  }
+  .list_container {
+    flex-direction: column;
+  }
+  .list_signup {
+    display: none;
+    size: 20;
+  }
+  .active {
+    display: block;
+    flex-direction: column;
+    position: absolute;
+    margin-top: 338px;
+    margin-left: 42vw;
+    /* transition: 1s ease-in; */
+  }
+  .active > .signup_container {
+    width: 40%;
+  }
+  .logo_container {
+    width: stop0%;
+    margin-left: 30px;
+    margin-top: 20px;
+  }
+}
