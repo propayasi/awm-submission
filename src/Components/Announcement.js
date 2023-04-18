@@ -18,6 +18,13 @@ function Announcement() {
             <div className='textty_text'>
                     <p>Use this announcement bar to inform visitors of something important.</p>
             </div>
+
+            <div className='dotty_dot'>
+                <img src={img2} />  
+                <img src={img2} /> 
+                <img src={img2} /> 
+                <img src={img2} /> 
+            </div>
             
             
         </div>
